@@ -2,6 +2,7 @@
 
 - [MySQL](#MySQL)
 - [Postman](#MySQL)
+- [GraphRAG](#graphrag源码安装)
 
 ---
 
@@ -46,4 +47,7 @@ pip install poetry
 poetry install
 ```
 
+## Neo4j
+- [Neo4j源码安装](https://neo4j.com/deployment-center/)
+- [apoc插件](https://github.com/neo4j/apoc/releases)
 
