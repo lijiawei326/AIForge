@@ -1,4 +1,4 @@
-# Microsoft Graph RAG
+# Microsoft Graph RAG Structure
 
 ## 读取文件
 针对文件类型设定loader，lodaer的输出是一个df。
@@ -354,7 +354,16 @@ relationships = _merge_relationships(relationship_dfs)
 如需了解 embedded_fields 的来源或具体配置，可以继续追问！
 
 
-## 接入图数据库Neo4j
+## 导入图数据库Neo4j
 
+### Neo4j数据库操作
 
+1. 启动Neo4j
+```bash
+neo4j.bat console
+```
 
+2. 链接数据库
+```python
+
+```
